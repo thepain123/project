@@ -26,7 +26,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+ 
+  <scm>
+    <connection>scm:git:git@github.com:thepain123/project.git</connection>
+    <url>scm:git:git@github.com:thepain123/project.git</url>
+    <developerConnection>scm:git:git@github.com:thepain123/project.git</developerConnection>
+  </scm>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
